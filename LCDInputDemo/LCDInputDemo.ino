@@ -34,14 +34,11 @@
  *
  *
  *  Control Behavior:
- *    The LCD will display title text, then randomly generate 'heart' icons
- *    across the LCD. In the upper right corner there will be a small stick 
- *    figure - your 'hero'. By moving the joustick up/down/left/right the user
- *    can control the 'hero' to collect the hearts. Once all the hearts are
- *    collected, a 'you win!' label appears.
- *    Clicking the pushbutton will reset the game and regenerate a new field
- *    of hearts. The hearts are randomly selected. The random seed is generated
- *    from the Knob.
+ *    The state of value of each sensor will be displayed to the LCD
+ *    B:Button
+ *    K:Knob
+ *    X:Joystick Horizontal
+ *    Y:Joystick Vertical 
  * 
  *  References
  *      RobotGeek LCD Documentation http://learn.trossenrobotics.com/30-robotgeek-getting-started-guides/dev-kits/57-robotgeek-i2c-lcd-getting-started-guide
